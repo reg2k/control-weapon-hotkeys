@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{1ae1c563-2a43-471c-92dd-789f6cfa6127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rva">
+      <UniqueIdentifier>{628185b8-45d4-4d66-8fe1-2713f05af4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rva\sscan">
+      <UniqueIdentifier>{3d74fcd4-b289-49c8-aecb-26f42def83a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{baa26f29-9018-452f-8a7a-b13f14e4c3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook\hde">
+      <UniqueIdentifier>{f31a9c43-dfb3-4436-9655-1407607c5c70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\WeaponSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Logger.cpp">
+      <Filter>logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rva\sscan\Pattern.cpp">
+      <Filter>rva\sscan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\minhook\src\buffer.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\minhook\src\hook.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\minhook\src\trampoline.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\minhook\src\hde\hde32.c">
+      <Filter>minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\minhook\src\hde\hde64.c">
+      <Filter>minhook\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\WeaponSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Logger.h">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rva\RVA.h">
+      <Filter>rva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rva\sscan\Pattern.h">
+      <Filter>rva\sscan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\include\MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\buffer.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\trampoline.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\hde\hde32.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\hde\hde64.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\hde\pstdint.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\hde\table32.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minhook\src\hde\table64.h">
+      <Filter>minhook\hde</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
