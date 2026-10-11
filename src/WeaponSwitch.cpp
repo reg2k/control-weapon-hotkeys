@@ -66,11 +66,11 @@ struct InPlaceVector {
 struct GameWindowVtbl {
     void* Dtor; // 00
     void* dispatchAppEvent;
-    _AppEventHandler eventHandlers[11];
+    _AppEventHandler eventHandlers[12];
     _AppEventHandler GamepadButtonEvent;
     //...
 };
-static_assert(offsetof(GameWindowVtbl, GamepadButtonEvent) == 0x68, "offset error");
+static_assert(offsetof(GameWindowVtbl, GamepadButtonEvent) == 0x70, "offset error");
 using _GameWindow_GetInstance = GameWindowVtbl**(*)();
 
 struct GamepadButtonEvent {
